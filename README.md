@@ -6,12 +6,12 @@ Planer zadań is a modern, customizable task planner built with React, TypeScrip
 
 ## Features
 
-- 📝 Create, edit, and delete custom plans and tasks
-- 🎨 Multiple color themes and font options
-- 💾 Save and load your plans locally
-- 📅 Responsive and user-friendly interface
-- ⚡ Fast performance with Vite and React 19
-- 👩‍💻 Built with TypeScript for type safety
+-  Create, edit, and delete custom plans and tasks
+-  Multiple color themes and font options
+-  Save and load your plans locally
+-  Responsive and user-friendly interface
+-  Fast performance with Vite and React 19
+-  Built with TypeScript for type safety
 
 ## Getting Started
 
