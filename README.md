@@ -1,15 +1,78 @@
-# React + TypeScript + Vite
+# Planer zadań
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Planer zadań is a modern, customizable task planner built with React, TypeScript, and Vite. It helps you organize your tasks, create custom plans, and manage your schedule with a beautiful and intuitive interface.
 
-Currently, two official plugins are available:
+![App Logo](public/image1.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- 📝 Create, edit, and delete custom plans and tasks
+- 🎨 Multiple color themes and font options
+- 💾 Save and load your plans locally
+- 📅 Responsive and user-friendly interface
+- ⚡ Fast performance with Vite and React 19
+- 👩‍💻 Built with TypeScript for type safety
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v16 or newer)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-username/planer-zadan.git
+   cd planer-zadan
+   ```
+
+2. **Install dependencies:**
+   ```sh
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Start the development server:**
+   ```sh
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. **Open your browser:**  
+   Visit [http://localhost:5173](http://localhost:5173) to view the app.
+
+## Usage
+
+- Click "Stwórz nowy plan" to create a new plan.
+- Customize your plan with different themes and fonts.
+- Save your plans for future use.
+- Access your saved plans from the "Moje zadania" section.
+- Adjust settings in the "Ustawienia" panel.
+
+## Project Structure
+
+```
+├── public/
+│   └── image1.png (logo and other images)
+├── src/
+│   ├── App.tsx
+│   ├── Nowyplan.tsx
+│   ├── saved.tsx
+│   ├── settings.tsx
+│   └── ...
+├── index.html
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
+```
+
+## ESLint Configuration
+
+This project uses ESLint for code quality and consistency. For production, enable type-aware lint rules:
 
 ```js
 export default tseslint.config([
@@ -67,3 +130,12 @@ export default tseslint.config([
   },
 ])
 ```
+
+## Credits
+
+Created by **Anna Korzeniewska 53522**  
+Icons and images © their respective owners.
+
+---
+
+**Enjoy using Planer zadań!**
